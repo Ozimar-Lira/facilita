@@ -1,0 +1,129 @@
+/* Global styles */
+:root {
+  --White: #fff;
+}
+
+/* .pagina styles */
+.pagina {
+  width: 375px;
+  height: 812px;
+  flex-shrink: 0;
+  background: var(--White);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+/* .imagem styles */
+.imagem {
+  background-color: #fff;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding-left: 32%;
+  padding-bottom: 0;
+}
+
+/* .login-container styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin-top: 70px;
+  background-color: #fff;
+}
+
+/* .welcome-message styles */
+.welcome-message {
+  font-size: 24px;
+  font: bold;
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 00px;
+  margin-bottom: 00px;
+}
+
+/* .login-form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+/* Input, button styles */
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+input[type='tel'] {
+  width: 343px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  border: none;
+  color: #333;
+}
+
+button {
+  width: 343px;
+  padding: 16px 32px;
+  background-color: #52addf;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 100px;
+  background: #52addf;
+}
+
+button:hover {
+  background-color: #3b8baf;
+}
+
+.esqueceu {
+  color: #bbdcee;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.login {
+  color: #b6423b;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.tipo_usuario {
+  color: var(--gray-03, #bdbdbd);
+
+  /* UI - 16 Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tipo {
+  color: var(--gray-03, #bdbdbd);
+
+  /* UI - 16 Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: #3b8baf;
+}

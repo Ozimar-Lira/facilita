@@ -1,0 +1,237 @@
+/* Global styles */
+:root {
+  --White: #fff;
+}
+
+/* .pagina styles */
+.pagina {
+  width: 375px;
+  height: 812px;
+  flex-shrink: 0;
+  background: var(--White);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+/* .imagem styles */
+.imagem {
+  background-color: #fff;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding-left: 32%;
+  padding-bottom: 0;
+}
+
+/* .login-container styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+/* .welcome-message styles */
+.welcome-message {
+  font-size: 10px;
+  font: bold;
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+
+/* .login-form styles */
+.login-form,
+.pesquisar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 00px;
+}
+
+/* Input, button styles */
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='search'] {
+  width: 343px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  border: none;
+  color: #333;
+}
+
+button {
+  width: 343px;
+  padding: 16px 32px;
+  background-color: #52addf;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 100px;
+  background: #52addf !important;
+}
+
+button:hover {
+  background-color: #3b8baf;
+}
+
+.esqueceu {
+  color: #bbdcee;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.login {
+  color: #b6423b;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.tipo_usuario {
+  color: var(--gray-03, #bdbdbd);
+
+  /* UI - 16 Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tipo {
+  color: var(--gray-03, #bdbdbd);
+
+  /* UI - 16 Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: #3b8baf;
+}
+
+.input-group {
+  position: relative;
+  width: 300px; /* Ajuste conforme necessário */
+}
+
+.input-group-text {
+  background-color: #f8f9fa; /* Cor de fundo do ícone */
+  border: none;
+}
+
+.form-control {
+  border-radius: 4px; /* Borda do input */
+}
+
+.link {
+  width: 343px;
+  height: 50px;
+  background-color: #52addf;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 00px;
+  margin-left: 8px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.linkitem {
+  color: #fbfbfb;
+}
+
+.card {
+  width: 343px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2x 2px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.cardInicio {
+  color: var(--gray-03, #bdbdbd);
+
+  /* UI - 16 Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.spanFinal {
+  color: #b6423b;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.inputdetalhe {
+  display: flex;
+  width: 343px;
+  height: 137px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.editarevento {
+  color: #66669b;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.excluirevento {
+  color: #b6423b;
+
+  /* UI - 16 Semi */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.edicao {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.spacer {
+  width: 16px; /* ou qualquer valor que desejar para o espaçamento */
+}
